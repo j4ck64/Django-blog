@@ -22,7 +22,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Add .env variables anywhere before SECRET_KEY
 from dotenv import load_dotenv
 env =load_dotenv(".env")
-SECRET_KEY = os.environ['SECRET_KEY']
+# SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY='h8kl0o4yyqzqux&ddeg-d6*h+f9&b_r1gbjp%uu)h(bvesep*6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
